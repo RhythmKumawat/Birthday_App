@@ -2,6 +2,7 @@ package com.example.birthdayapp;
 
 import android.os.Bundle;
 
+import androidx.activity.R;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -17,7 +18,7 @@ public class newLayout extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_layout);
+        setContentView(com.example.birthdayapp.R.layout.activity_new_layout);
 
         setTitle("Happy Birthday!!!!!");
 

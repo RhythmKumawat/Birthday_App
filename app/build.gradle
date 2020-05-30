@@ -36,6 +36,9 @@ dependencies {
     implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.6'
     implementation 'com.github.d-max:spots-dialog:1.1@aar'
     implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
 }
 repositories {
     mavenCentral()
