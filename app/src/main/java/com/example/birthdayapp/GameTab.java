@@ -68,7 +68,7 @@ public class GameTab extends Fragment implements View.OnClickListener {
     }
 
     private void transitionToSportsSpeakerApp() {
-        Intent intent = new Intent(getActivity(), DiceApp.class);
+        Intent intent = new Intent(getActivity(), SportsSpeakerGameApp.class);
         startActivity(intent);
     }
 
