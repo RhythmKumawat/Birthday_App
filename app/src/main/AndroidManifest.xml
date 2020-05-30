@@ -14,10 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SportsSpeakerGameApp"></activity>
-        <activity android:name=".sportsSpeake"></activity>
-        <activity android:name=".SportsSpeak"></activity>
-        <activity android:name=".SportsSpeakerGameY"></activity>
-        <activity android:name=".SportsSpeakerGame"></activity>
         <activity android:name=".DiceApp" />
         <activity android:name=".OuizApp" />
         <activity
