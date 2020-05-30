@@ -2,7 +2,6 @@ package com.example.birthdayapp;
 
 import android.os.Bundle;
 
-import androidx.activity.R;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -22,10 +21,10 @@ public class newLayout extends AppCompatActivity {
 
         setTitle("Happy Birthday!!!!!");
 
-        toolbar = findViewById(R.id.myToolbar);
+        toolbar = findViewById(com.example.birthdayapp.R.id.myToolbar);
         setSupportActionBar(toolbar);
 
-        viewPager = findViewById(R.id.viewPager);
+        viewPager = findViewById(com.example.birthdayapp.R.id.viewPager);
 
         tabLayout = findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(viewPager, false);

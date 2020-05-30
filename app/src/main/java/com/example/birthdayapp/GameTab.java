@@ -29,7 +29,7 @@ public class GameTab extends Fragment implements View.OnClickListener {
         View view = inflater.inflate(R.layout.fragment_game_tab, container, false);
 
         imgBtnDiceApp = view.findViewById(R.id.imgBtnDiceApp);
-        imgBtnLionOrTiger = view.findViewById(R.id.imgBtnLionOrTiger);
+        imgBtnLionOrTiger = view.findViewById(R.id.imgBtnSportsSpeakerApp);
         imgBtnQuizApp = view.findViewById(R.id.imgBtnQuizApp);
 
         imgBtnDiceApp.setOnClickListener(this);
@@ -47,9 +47,11 @@ public class GameTab extends Fragment implements View.OnClickListener {
             case R.id.imgBtnQuizApp:
                 transitionToQuizApp();
                 break;
-                case R.id.imgBtnDiceApp:
+           case R.id.imgBtnDiceApp:
+                transitionToDiceApp();
                 break;
-                case R.id.imgBtnLionOrTiger:
+           case R.id.imgBtnSportsSpeakerApp:
+               transitionToSportsSpeakerApp();
                 break;
         }
 
@@ -61,6 +63,11 @@ public class GameTab extends Fragment implements View.OnClickListener {
     }
 
     private void transitionToDiceApp() {
+        Intent intent = new Intent(getActivity(), DiceApp.class);
+        startActivity(intent);
+    }
+
+    private void transitionToSportsSpeakerApp() {
         Intent intent = new Intent(getActivity(), DiceApp.class);
         startActivity(intent);
     }
